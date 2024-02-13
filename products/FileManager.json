@@ -6,7 +6,7 @@
       "imageNames": [
         {
           "first": "",
-          "second": "front"
+          "second": "front.jpg"
         }
       ],
       "informationDate": "",
@@ -27,11 +27,11 @@
       "imageNames": [
         {
           "first": "",
-          "second": "front_opened"
+          "second": "front_opened.jpg"
         },
         {
           "first": "",
-          "second": "front_closed"
+          "second": "front_closed.jpg"
         }
       ],
       "informationDate": "",
@@ -52,11 +52,11 @@
       "imageNames": [
         {
           "first": "",
-          "second": "back"
+          "second": "back.jpg"
         },
         {
           "first": "",
-          "second": "front"
+          "second": "front.jpg"
         }
       ],
       "informationDate": "",

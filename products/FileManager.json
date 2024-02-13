@@ -19,7 +19,8 @@
         "tahta",
         "demir"
       ],
-      "thumbnailDate": ""
+      "thumbnailDate": "",
+      "description" : ""
     },
     "0003": {
       "category": "Koltuk",
@@ -44,7 +45,8 @@
         "tahta",
         "rahat"
       ],
-      "thumbnailDate": ""
+      "thumbnailDate": "",
+      "description" : ""
     },
     "0001": {
       "category": "Koltuk",
@@ -69,7 +71,8 @@
         "tahta",
         "rahat"
       ],
-      "thumbnailDate": ""
+      "thumbnailDate": "",
+      "description" : ""
     }
   }
 }

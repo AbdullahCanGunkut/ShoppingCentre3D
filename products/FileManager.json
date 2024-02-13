@@ -1,0 +1,75 @@
+{
+  "products": {
+    "0002": {
+      "category": "Masa",
+      "discountPrice": 16.0,
+      "imageNames": [
+        {
+          "first": "",
+          "second": "front"
+        }
+      ],
+      "informationDate": "",
+      "modelDate": "",
+      "price": 32.0,
+      "productId": "0002",
+      "productName": "dekoratif masa",
+      "tags": [
+        "masa",
+        "tahta",
+        "demir"
+      ],
+      "thumbnailDate": ""
+    },
+    "0003": {
+      "category": "Koltuk",
+      "discountPrice": 90.0,
+      "imageNames": [
+        {
+          "first": "",
+          "second": "front_opened"
+        },
+        {
+          "first": "",
+          "second": "front_closed"
+        }
+      ],
+      "informationDate": "",
+      "modelDate": "",
+      "price": 120.0,
+      "productId": "0003",
+      "productName": "Dolap ",
+      "tags": [
+        "sandalye",
+        "tahta",
+        "rahat"
+      ],
+      "thumbnailDate": ""
+    },
+    "0001": {
+      "category": "Koltuk",
+      "discountPrice": 8.0,
+      "imageNames": [
+        {
+          "first": "",
+          "second": "back"
+        },
+        {
+          "first": "",
+          "second": "front"
+        }
+      ],
+      "informationDate": "",
+      "modelDate": "",
+      "price": 15.0,
+      "productId": "0001",
+      "productName": "tahta sandalye",
+      "tags": [
+        "sandalye",
+        "tahta",
+        "rahat"
+      ],
+      "thumbnailDate": ""
+    }
+  }
+}

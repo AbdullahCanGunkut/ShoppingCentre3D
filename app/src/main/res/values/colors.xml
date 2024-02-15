@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray">#FF333333</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="theme_color_0">#008ec2</color>
+    <color name="theme_color_1">#5bb9da</color>
+    <color name="theme_color_2">#57a8c6</color>
+    <color name="theme_color_3">#59b9db</color>
+    <color name="theme_color_4">#aeddf3</color>
+    <color name="gradient_background_start_color">#e1faff</color>
+    <color name="gradient_background_end_color">#c2eaff</color>
+
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="magenta">#FF00FF</color>
+</resources>

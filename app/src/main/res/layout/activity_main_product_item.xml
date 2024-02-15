@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="128dp"
+    android:layout_height="128dp"
+    android:background="@drawable/product_background"
+    android:gravity="center"
+    android:id="@+id/productItem"
+    >
+
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:scaleType="fitCenter"
+    android:src="@drawable/cart_line_icon"
+    android:layout_weight="3"
+    android:id="@+id/productImage"
+    >
+</ImageView>
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/theme_color_3"
+        android:gravity="center"
+        >
+
+    <TextView
+
+        android:id="@+id/productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deneme"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="8sp"
+        android:autoSizeMaxTextSize="14sp"
+        android:autoSizeStepGranularity="2sp"
+        android:textSize="12sp"
+        >
+
+    </TextView>
+
+
+
+        <TextView
+
+            android:id="@+id/productPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$45"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="8sp"
+            android:autoSizeMaxTextSize="14sp"
+            android:autoSizeStepGranularity="2sp"
+            android:textSize="12sp"
+            >
+
+        </TextView>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat >
+
+</androidx.appcompat.widget.LinearLayoutCompat >

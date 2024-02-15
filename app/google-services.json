@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "254124075257",
+    "project_id": "shoppingcentre3d",
+    "storage_bucket": "shoppingcentre3d.appspot.com",
+    "firebase_url"  : "https://shoppingcentre3d-default-rtdb.europe-west1.firebasedatabase.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254124075257:android:e4c36a672cf603de2e9a28",
+        "android_client_info": {
+          "package_name": "com.example.shoppingcentre3d"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDngwPXSDDNnD1A6AACv8m7p6t5WuW4NRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

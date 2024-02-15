@@ -1,0 +1,239 @@
+<resources>
+    <string name="app_name">ShoppingCentre3D</string>
+
+
+    <string name="signIn">
+        Sign in
+    </string>
+
+    <string name="minPrice">
+        Min Price
+    </string>
+
+    <string name="maxPrice">
+        Max Price
+    </string>
+    <string name="category">
+        Category
+    </string>
+
+    <string name="searchProductName">
+        Product Name
+    </string>
+
+    <string name="search">
+        Search
+    </string>
+
+
+    <string name="productsName">
+        Products
+    </string>
+
+    <string name="price">
+        Price
+    </string>
+
+    <string name="recommendProducts">
+        Recommend Products
+    </string>
+
+
+    <string name="signUp">
+        Sign up
+    </string>
+
+    <string name="userSettings">
+        User Settings
+    </string>
+    <string name="userMenuLogin">
+        Login Menu
+    </string>
+
+    <string name="enterPassword">
+        Enter your password here ...
+    </string>
+
+    <string name="password">
+     Password
+    </string>
+
+    <string name="email">
+     Email
+    </string>
+    <string name="enterMail">
+        Enter your email here ...
+    </string>
+
+
+    <string name="day">
+        Day
+    </string>
+    <string name="month">
+        Month
+    </string>
+    <string name="year">
+        Year
+    </string>
+
+    <string name="themeSettings">
+        Theme Settings
+    </string>
+
+    <string name="theme">
+        Theme
+    </string>
+
+
+    <string name="addressSettings">
+        Address Settings
+    </string>
+
+    <string name="adress">
+        Address
+    </string>
+
+    <string name="BankSettings">
+        Bank Card Settings
+    </string>
+
+    <string name="UserInformation">
+        User Information
+    </string>
+
+    <string name="telephoneNumber">
+    Telephone Number
+</string>
+
+
+    <string name="BankCard">
+        Bank Card
+    </string>
+
+
+    <string name="birthday">
+        Birthday
+    </string>
+
+    <string name="name">
+        Name
+    </string>
+
+    <string name="register">
+        Register
+    </string>
+
+    <string name="surname">
+        Surname
+    </string>
+
+    <string name="securityCode">
+    Security Code
+</string>
+
+    <string name="validitiyDate">
+        Validitiy Date
+    </string>
+
+    <string name="themeColor">
+        Theme Color
+    </string>
+
+    <string name="defaultName">
+        Default
+    </string>
+
+    <string name="bankCardNumber">
+        Bank Card Number
+    </string>
+
+
+    <string name="addAddress">
+        Add Address
+    </string>
+
+
+    <string name="bankCards">
+        Bank Cards
+    </string>
+
+    <string name="addBankCard">
+    Add Bank Card
+</string>
+
+    <string name="save">
+        Save
+    </string>
+
+    <string name="oldPassword">
+        Old Password
+    </string>
+
+    <string name="newPassword">
+        New Password
+    </string>
+
+    <string name="Apply">
+        Apply
+    </string>
+
+    <string name="allAddress">
+        All Addresses
+    </string>
+
+    <string name="visualMode">Visual Mode</string>
+
+    <string-array name="productCategory">
+        <item>All</item>
+
+        <item>Shoes</item>
+        <item>Home appliances</item>
+        <item>Clothing</item>
+        <item>Books</item>
+        <item>Jewelry</item>
+        <item>Office supplies</item>
+        <item>Toys</item>
+        <item>Sports equipment</item>
+        <item>Technology products</item>
+        <item>Food and drinks</item>
+    </string-array>
+
+
+    <string-array name="productVisualType">
+        <item>3D Model</item>
+        <item>Real Images</item>
+    </string-array>
+
+    <string name="description">
+        Description
+    </string>
+
+    <string name="amount">
+        Amount
+    </string>
+
+    <string name="addToBasket">
+        Add To Basket
+    </string>
+
+
+    <string name="userSuccessfulyCreated">
+       User created successfuly !
+    </string>
+
+    <string name="userFailedToCreate">
+       User has not created !
+    </string>
+
+    <string name="telephone">
+       Telephone
+    </string>
+    <string name="image">
+    Image
+</string>
+    <string name="exit">
+        Exit
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+</resources>

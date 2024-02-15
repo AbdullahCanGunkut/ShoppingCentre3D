@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+
+            android:id="@+id/productName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeMaxTextSize="48sp"
+            android:autoSizeMinTextSize="8sp"
+            android:autoSizeStepGranularity="2sp"
+            android:autoSizeTextType="uniform"
+            android:background="@color/theme_color_0"
+            android:text="Product Name"
+            android:textAlignment="center"
+            android:textSize="48sp"></androidx.appcompat.widget.AppCompatTextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/gray"
+                android:orientation="vertical">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/theme_color_2">
+
+                    <TextView
+
+                        android:id="@+id/categoryName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Koltuk"
+                        android:textAlignment="center"
+                        android:textSize="32dp"></TextView>
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@color/theme_color_2"
+                        android:gravity="end">
+
+                        <TextView
+
+
+                            android:id="@+id/imageMode"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@color/theme_color_1"
+                            android:onClick="selectRenderMode"
+                            android:text="@string/image"
+                            android:textAlignment="center"
+                            android:textSize="32dp"></TextView>
+
+                        <TextView
+                            android:id="@+id/modelMode"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@color/black"
+                            android:onClick="selectRenderMode"
+                            android:text="3D"
+                            android:textAlignment="center"
+                            android:textSize="32dp"></TextView>
+
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="256dp"
+                        >
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/theme_color_1">
+
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoSizeMaxTextSize="48sp"
+                            android:autoSizeMinTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:background="@color/theme_color_0"
+                            android:text="@string/description"
+                            android:textAlignment="center"
+                            android:textSize="48sp"></androidx.appcompat.widget.AppCompatTextView>
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/productDescription"
+                            android:layout_width="match_parent"
+                            android:layout_height="180sp"
+                            android:autoSizeMaxTextSize="20sp"
+                            android:autoSizeMinTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:scrollbars="vertical"
+                            android:text="@string/name"
+                            android:textSize="20sp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/productPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autoSizeMaxTextSize="32sp"
+                            android:autoSizeMinTextSize="8sp"
+                            android:autoSizeStepGranularity="2sp"
+                            android:autoSizeTextType="uniform"
+                            android:background="@color/theme_color_0"
+                            android:text="@string/price"
+                            android:textAlignment="center"
+                            android:textSize="32sp"></androidx.appcompat.widget.AppCompatTextView>
+
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:layout_marginBottom="48dp"
+                            >
+
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:autoSizeMaxTextSize="24sp"
+                                android:autoSizeMinTextSize="8sp"
+                                android:autoSizeStepGranularity="2sp"
+                                android:autoSizeTextType="uniform"
+                                android:text="@string/amount"
+                                android:textAlignment="center"
+                                android:textSize="24sp"></androidx.appcompat.widget.AppCompatTextView>
+
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:hint="@string/amount"
+                                android:inputType="number"
+                                android:text="1"
+                                android:textAlignment="textEnd"
+                                android:textSize="24sp">
+
+                            </com.google.android.material.textfield.TextInputEditText>
+
+                            <androidx.appcompat.widget.AppCompatButton
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/addToBasket"
+                                android:textSize="24sp">
+
+                            </androidx.appcompat.widget.AppCompatButton>
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </ScrollView>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@+id/modelViewport"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/modelImageBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/modelImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitCenter"
+                        android:visibility="visible"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <ImageButton
+
+                        android:id="@+id/rightImage"
+                        android:layout_width="48dp"
+                        android:layout_height="56dp"
+                        android:rotation="90"
+                        android:scaleType="fitCenter"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@android:drawable/arrow_up_float" />
+
+                    <ImageButton
+
+                        android:id="@+id/leftImage"
+                        android:layout_width="48dp"
+                        android:layout_height="56dp"
+                        android:rotation="-90"
+                        android:scaleType="fitCenter"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/modelImage"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@android:drawable/arrow_up_float" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</layout>

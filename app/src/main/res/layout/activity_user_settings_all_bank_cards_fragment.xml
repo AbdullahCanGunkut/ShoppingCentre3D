@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    app:cardBackgroundColor="@color/theme_color_2"
+    app:cardCornerRadius="4dp"
+   android:onClick="toggleCard"
+
+    >
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+
+            android:id="@+id/addressTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bankCards"
+            android:textAlignment="center"
+            android:textSize="24dp"
+
+            />
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/allBankCards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/bankcards"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="1" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>
+</layout>

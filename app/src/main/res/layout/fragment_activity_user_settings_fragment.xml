@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_user_settings_fragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/user_background"
+        android:orientation="vertical"
+        >
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="24dp"
+                >
+
+
+                <fragment
+                    android:id="@+id/userInformation"
+                    android:name="com.example.shoppingcentre3d.UserInformation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    tools:layout="@layout/activity_user_settings_user_informations" />
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@drawable/horizontal_divider2" />
+
+                <fragment
+                    android:id="@+id/allAddresses"
+                    android:name="com.example.shoppingcentre3d.AllAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:layout="@layout/activity_user_settings_all_addresses_fragment"
+                    android:layout_marginBottom="16dp"/>
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginBottom="32dp"
+                    >
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="4dp"
+                        android:background="@drawable/horizontal_divider2" />
+
+                    <include
+                        android:id="@+id/addAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        layout="@layout/activity_user_settings_address_card">
+                    </include>
+
+                    <androidx.appcompat.widget.AppCompatButton
+
+                        android:id="@+id/addAddressButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="@string/addAddress"
+                        android:onClick="addNewAddress"
+                        >
+
+                    </androidx.appcompat.widget.AppCompatButton>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@drawable/horizontal_divider2" />
+
+
+                <fragment
+                    android:id="@+id/allBankCards"
+                    android:name="com.example.shoppingcentre3d.BankCards"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:layout="@layout/activity_user_settings_all_bank_cards_fragment"
+                    android:layout_marginBottom="16dp"/>
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@drawable/horizontal_divider2" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+
+                <include
+                    android:id="@+id/addBankcard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/activity_user_settings_bank_card">
+                </include>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/addBankcardButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"
+                        android:text="@string/addBankCard"
+                        android:onClick="addNewBankCard"
+                        >
+
+                    </androidx.appcompat.widget.AppCompatButton>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_marginBottom="48dp">
+
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/exitUser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/red"
+                        android:text="@string/exit"
+                        android:textSize="24dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                       />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/applyChanges"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/green"
+                        android:text="@string/Apply"
+                        android:textSize="24dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent">
+
+
+                    </androidx.appcompat.widget.AppCompatButton>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+        </ScrollView>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>
+</layout>

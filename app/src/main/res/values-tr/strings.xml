@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">
+        3D Mağza
+    </string>
+
+    <string name="userSettings">
+        Kullanıcı Ayarları
+    </string>
+    <string name="userMenuLogin">
+        Giriş
+    </string>
+
+    <string name="signIn">
+        Giriş
+    </string>
+
+    <string name="productsName">
+        Ürünler
+    </string>
+
+
+    <string name="price">
+        Fiyat
+    </string>
+
+
+    <string name="minPrice">
+        Min Fiyat
+    </string>
+
+    <string name="maxPrice">
+        Maks Fiyat
+    </string>
+
+    <string name="category">
+        Kategori
+    </string>
+
+
+    <string name="searchProductName">
+        Ürün adı
+    </string>
+
+    <string name="recommendProducts">
+        Tavsiye edilen ürünler
+    </string>
+
+
+    <string name="search">
+        Ara
+    </string>
+
+    <string name="signUp">
+        Kayıt ol
+    </string>
+    <string name="enterPassword">
+        Şifrenizi buraya giriniz ...
+    </string>
+
+
+    <string name="password">
+     Şifre
+    </string>
+
+    <string name="email">
+     E-posta
+    </string>
+
+
+    <string name="enterMail">
+        Email adresinizi buraya giriniz ...
+    </string>
+
+
+    <string name="day">
+        Day
+    </string>
+    <string name="month">
+        Month
+    </string>
+    <string name="year">
+        Year
+    </string>
+
+    <string name="themeSettings">
+        Theme Settings
+    </string>
+
+    <string name="theme">
+        Theme
+    </string>
+
+
+    <string name="addressSettings">
+        Adres Ayarları
+    </string>
+
+    <string name="adress">
+        Adres
+    </string>
+
+    <string name="BankSettings">
+        Banka Ayarları
+    </string>
+
+    <string name="UserInformation">
+        Kullanıcı Bilgileri
+    </string>
+
+    <string name="telephoneNumber">
+    Telefon Numarası
+</string>
+
+
+    <string name="BankCard">
+        Banka Kartı
+    </string>
+
+
+    <string name="birthday">
+        Doğum Günü
+    </string>
+
+    <string name="name">
+        İsim
+    </string>
+
+    <string name="register">
+        Kayıt Ol
+    </string>
+
+    <string name="surname">
+        Soyad
+    </string>
+
+    <string name="securityCode">
+    Güvenlik Kodu
+</string>
+
+    <string name="validitiyDate">
+        Geçerlilik Tarihi
+    </string>
+
+    <string name="themeColor">
+        Tema Rengi
+    </string>
+
+    <string name="defaultName">
+        Varsayılan
+    </string>
+
+
+    <string name="bankCardNumber">
+        Banka Kartı Numarası
+    </string>
+
+
+    <string name="addAddress">
+        Adres Ekle
+    </string>
+
+    <string name="bankCards">
+        Banka Kartları
+    </string>
+
+    <string name="addBankCard">
+   Banka Kartı Ekle
+</string>
+
+
+    <string name="save">
+        Kaydet
+    </string>
+
+
+    <string name="oldPassword">
+        Eski Şifre
+    </string>
+
+    <string name="newPassword">
+        Yeni Şifre
+    </string>
+
+    <string name="Apply">
+        Onayla
+    </string>
+
+    <string name="allAddress">
+        Tüm Adresler
+    </string>
+
+
+    <string name="visualMode">Görsel Modu</string>
+    <string-array name="productCategory">
+        <item>Hepsi</item>
+        <item>Dolap</item>
+        <item>Koltuk</item>
+        <item>Masa</item>
+        <item>Yemek</item>
+        <item>Isıtıcı</item>
+        <item>Ayakkabı</item>
+        <item>Ev aletleri</item>
+        <item>Giyim</item>
+        <item>Kitaplar</item>
+        <item>Mücevherat</item>
+        <item>Ofis malzemeleri</item>
+        <item>Oyuncaklar</item>
+        <item>Spor ekipmanları</item>
+        <item>Teknoloji ürünleri</item>
+        <item>Yiyecek ve içecek</item>
+    </string-array>
+
+
+    <string-array name="productVisualType">
+        <item>3D Model</item>
+        <item>Gerçek Resim</item>
+    </string-array>
+
+    <string name="description">
+        Açıklama
+    </string>
+
+    <string name="amount">
+        Miktar
+    </string>
+
+    <string name="addToBasket">
+        Sepete Ekle
+    </string>
+
+
+    <string name="userSuccessfulyCreated">
+        Kullanıcı başarılı bir şekilde oluşturuldu !
+    </string>
+
+    <string name="userFailedToCreate">
+        Kullanıcı oluşturulamadı !
+    </string>
+
+    <string name="telephone">
+       Telefon
+    </string>
+    <string name="exit">
+        Çıkış Yap
+    </string>
+    <string name="image">
+    Resim
+</string>
+</resources>

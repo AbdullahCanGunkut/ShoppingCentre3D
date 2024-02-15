@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        app:cardBackgroundColor="@color/theme_color_2"
+        app:cardCornerRadius="4dp"
+        android:onClick="toggleCard"
+        >
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/UserInformation"
+                android:textAlignment="center"
+                android:textSize="24dp" />
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:id="@+id/bankcardInformationBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="4dp">
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/theme_color_0"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoSizeMaxTextSize="20sp"
+                        android:autoSizeMinTextSize="8sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:text="@string/name"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/name"
+                        android:maxLines="1"
+                        android:textSize="20sp"
+                        app:autoSizeMaxTextSize="20sp"
+                        app:autoSizeMinTextSize="12sp"
+                        app:autoSizeTextType="uniform" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@drawable/horizontal_divider" />
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/theme_color_0"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoSizeMaxTextSize="20sp"
+                        android:autoSizeMinTextSize="8sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:text="@string/surname"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/surname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/surname"
+                        android:maxLines="1"
+                        android:textSize="20sp"
+                        app:autoSizeMaxTextSize="20sp"
+                        app:autoSizeMinTextSize="12sp"
+                        app:autoSizeTextType="uniform" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@drawable/horizontal_divider" />
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/theme_color_0"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoSizeMaxTextSize="20sp"
+                        android:autoSizeMinTextSize="8sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:hint="565233552"
+                        android:inputType="phone"
+                        android:text="@string/telephoneNumber"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/phoneNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/telephoneNumber"
+                        android:inputType="phone"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textSize="20sp"
+                        app:autoSizeMaxTextSize="20sp"
+                        app:autoSizeMinTextSize="12sp"
+                        app:autoSizeTextType="uniform"
+
+                        />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@drawable/horizontal_divider" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/theme_color_0"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:autoSizeMaxTextSize="20sp"
+                        android:autoSizeMinTextSize="8sp"
+                        android:autoSizeStepGranularity="2sp"
+                        android:autoSizeTextType="uniform"
+                        android:maxLength="@integer/maxPasswordLength"
+                        android:text="@string/birthday"
+                        android:textSize="20sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/birthdayDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:enabled="false"
+                        android:inputType="date"
+                        android:maxLines="@integer/maxPasswordLength"
+                        android:singleLine="true"
+                        android:textSize="20sp"
+                        app:autoSizeMaxTextSize="20sp"
+                        app:autoSizeMinTextSize="12sp"
+                        app:autoSizeTextType="uniform"
+
+                        />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.cardview.widget.CardView>
+</layout>

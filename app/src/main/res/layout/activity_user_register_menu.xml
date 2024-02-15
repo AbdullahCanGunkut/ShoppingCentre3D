@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/user_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".UserActivity">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/linearLayoutCompat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/theme_color_2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeMaxTextSize="20sp"
+                    android:autoSizeMinTextSize="8sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/name"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/name"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:background="@color/theme_color_1"
+                    android:elevation="4dp"
+                    android:hint="@string/name"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColorHint="@color/white"
+                    android:textSize="32sp"></androidx.appcompat.widget.AppCompatEditText>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/theme_color_2"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeMaxTextSize="20sp"
+                    android:autoSizeMinTextSize="8sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/surname"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/surname"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:background="@color/theme_color_1"
+                    android:elevation="4dp"
+                    android:hint="@string/surname"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColorHint="@color/white"
+                    android:textSize="32sp"></androidx.appcompat.widget.AppCompatEditText>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/theme_color_2"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeMaxTextSize="20sp"
+                    android:autoSizeMinTextSize="8sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/telephone"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/telephone"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:background="@color/theme_color_1"
+                    android:elevation="4dp"
+                    android:hint="@string/telephone"
+                    android:inputType="phone"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColorHint="@color/white"
+                    android:textSize="32sp"></androidx.appcompat.widget.AppCompatEditText>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/theme_color_2"
+                android:orientation="vertical"
+                android:gravity=""
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeMaxTextSize="20sp"
+                    android:autoSizeMinTextSize="8sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/birthday"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <DatePicker
+                    android:id="@+id/birthdayDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:calendarViewShown="false"
+                    android:datePickerMode="spinner" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/theme_color_2"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeMaxTextSize="20sp"
+                    android:autoSizeMinTextSize="8sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/email"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/email"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:background="@color/theme_color_1"
+                    android:elevation="4dp"
+                    android:hint="@string/enterMail"
+
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColorHint="@color/white"
+                    android:textSize="32sp"></androidx.appcompat.widget.AppCompatEditText>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="14dp"
+                android:background="@color/theme_color_2"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoSizeMaxTextSize="20sp"
+                    android:autoSizeMinTextSize="8sp"
+                    android:autoSizeStepGranularity="2sp"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/password"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/password"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:background="@color/theme_color_1"
+                    android:elevation="4dp"
+                    android:hint="@string/enterPassword"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColorHint="@color/white"
+                    android:textSize="32sp"></androidx.appcompat.widget.AppCompatEditText>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/signupButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/gradient_signin"
+                android:elevation="4dp"
+                android:text="@string/signUp"
+                android:textAlignment="center"
+                android:textSize="32sp"></androidx.appcompat.widget.AppCompatButton>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/appCompatTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:textSize="64sp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayoutCompat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent"
+
+            >
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

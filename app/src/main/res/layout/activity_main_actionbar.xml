@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:translationZ="999dp"
+    android:background="@color/theme_color_1">
+
+
+
+        <ImageButton
+            android:id="@+id/userSettings"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="end"
+            android:src="@drawable/user_icon"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="16dp"
+            android:onClick="goUserSettings"
+            />
+
+
+        <ImageButton
+
+            android:id="@+id/mainPage"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="end"
+            android:src="@drawable/home_icon"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="16dp"
+            android:onClick="goMainPage"
+            />
+
+
+
+
+
+</androidx.appcompat.widget.Toolbar>

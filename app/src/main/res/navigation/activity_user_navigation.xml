@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user_navigation"
+    app:startDestination="@id/activity_user_login_fragment">
+
+    <fragment
+        android:id="@+id/activity_user_settings_fragment"
+        android:name="com.example.shoppingcentre3d.activity_user_settings_fragment"
+        android:label="fragment_activity_user_settings_fragment"
+        tools:layout="@layout/fragment_activity_user_settings_fragment" />
+    <fragment
+        android:id="@+id/activity_user_login_fragment"
+        android:name="com.example.shoppingcentre3d.activity_user_login_fragment"
+        android:label="fragment_activity_user_login_fragment"
+        tools:layout="@layout/fragment_activity_user_login_fragment" >
+        <action
+            android:id="@+id/action_activity_user_login_fragment_to_activity_user_settings_fragment"
+            app:destination="@id/activity_user_settings_fragment"
+            app:enterAnim="@anim/slide_right"
+            app:exitAnim="@anim/slide_left"
+            app:popEnterAnim="@anim/slide_right"
+            app:popExitAnim="@anim/slide_left"
+            />
+        <action
+            android:id="@+id/action_activity_user_login_fragment_to_activity_user_register_fragment"
+            app:destination="@id/activity_user_register_fragment"
+            app:enterAnim="@anim/slide_right"
+            app:exitAnim="@anim/slide_left"
+            app:popEnterAnim="@anim/slide_right"
+            app:popExitAnim="@anim/slide_left"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/activity_user_register_fragment"
+        android:name="com.example.shoppingcentre3d.activity_user_register_fragment"
+        android:label="fragment_activity_user_register_fragment"
+        tools:layout="@layout/fragment_activity_user_register_fragment"
+        app:enterAnim="@anim/slide_right"
+        app:exitAnim="@anim/slide_left"
+        app:popEnterAnim="@anim/slide_right"
+        app:popExitAnim="@anim/slide_left"
+        >
+        <action
+            android:id="@+id/action_activity_user_register_fragment_to_activity_user_settings_fragment"
+            app:destination="@id/activity_user_settings_fragment"
+            app:enterAnim="@anim/slide_right"
+            app:exitAnim="@anim/slide_left"
+            app:popEnterAnim="@anim/slide_right"
+            app:popExitAnim="@anim/slide_left"
+            />
+    </fragment>
+</navigation>

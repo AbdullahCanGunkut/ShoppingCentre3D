@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/user_background"
+        android:orientation="vertical"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+
+        <include
+            android:visibility="gone"
+            android:id="@+id/recommendProductsViewPager"
+            layout="@layout/activity_main_recommend_products"
+
+            android:layout_width="match_parent"
+            android:layout_height="240dp"></include>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/searchProduct"
+                    layout="@layout/activity_main_search_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1"></include>
+
+                <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:elevation="6dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/productsName"
+                        android:textSize="32dp"
+                        android:textAlignment="center"
+                        android:background="@color/theme_color_4"
+                        >
+
+                    </TextView>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/products"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                        app:spanCount="3"
+                        android:background="#00000000"
+                        />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </ScrollView>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>
